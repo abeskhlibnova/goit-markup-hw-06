@@ -648,6 +648,8 @@ transform: scaleX(0) scaleY(0);
     margin-bottom: 10px;
 }
 .contact-form-main-title {
+    display: inline-block;
+    margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -716,10 +718,11 @@ transform: scaleX(0) scaleY(0);
 }
 .contact-form-message:focus{
     outline: none;
-    border-color: var(--accent-color);
+    border-color: var(--accent-color);  
 }
 .contact-form-checkbox-wrapper {
-margin-bottom: 30px;
+    margin-left: 12px;
+    margin-bottom: 30px;
 }
 
 .contact-form-checkbox-label{
